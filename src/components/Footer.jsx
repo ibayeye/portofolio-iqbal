@@ -6,21 +6,21 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer bg-[#2D2D39] font-title p-10 ">
-        <nav>
-          <h6 className="footer-title">Services</h6>
+        <nav className=" text-gray-200">
+          <h6 className="footer-title text-gray-200 opacity-1">Services</h6>
           <a href="#services" className="link link-hover">
             Web Development
           </a>
           <a href="#services" className="link link-hover">Mobile App Development</a>
           <a href="#services" className="link link-hover">Design</a>
         </nav>
-        <nav>
-          <h6 className="footer-title">About</h6>
+        <nav className=" text-gray-200">
+          <h6 className="footer-title text-gray-200 opacity-1">About</h6>
           <a href="#home" className="link link-hover">My History</a>
           <a href="#contact" className="link link-hover">Contact</a>
         </nav>
-        <nav>
-          <h6 className="footer-title">Social</h6>
+        <nav className=" text-gray-200">
+          <h6 className="footer-title text-gray-200 opacity-1">Social</h6>
           <div className="grid grid-flow-col gap-4">
             <a
               href="https://www.linkedin.com/in/iqbal-ramadan-1aa02834a/"
