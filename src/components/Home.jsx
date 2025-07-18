@@ -40,7 +40,7 @@ const Home = () => {
           <div className="text-center max-w-sm mx-auto mt-8">
             <p className="text-gray-400">
               A freelancer who provides services for digital programming and
-              design content needs, for all businesses with more than 20 years
+              design content needs, for all businesses with more than 2 years
               of experience
             </p>
           </div>
@@ -109,7 +109,7 @@ const Home = () => {
             </h1>
             <p className="text-gray-400 max-w-sm mt-8">
               A freelancer who provides services for digital programming and
-              design content needs, for all businesses with more than 10 years
+              design content needs, for all businesses with more than 2 years
               of experience
             </p>
           </div>
