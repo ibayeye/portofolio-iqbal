@@ -32,8 +32,8 @@ const Navbar = () => {
             <a href="#home" className="hover:text-gray-300">
               Home
             </a>
-            <a href="#portofolio" className="hover:text-gray-300">
-              Portofolio
+            <a href="#projects" className="hover:text-gray-300">
+              Projects
             </a>
             <a href="#testimonial" className="hover:text-gray-300">
               Testimonial
@@ -120,11 +120,11 @@ const Navbar = () => {
                 Home
               </a>
               <a
-                href="#portofolio"
+                href="#projects"
                 className="text-2xl hover:text-gray-300"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Portofolio
+                Projects
               </a>
               <a
                 href="#testimonial"

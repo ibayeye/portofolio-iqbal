@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Services from "./components/Services";
-import Portofolio from "./components/Portofolio";
+import Project from "./components/Project";
 import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
 import Footer from './components/Footer';
@@ -17,8 +17,8 @@ function App() {
       <section id="services">
         <Services />
       </section>
-      <section id="portofolio">
-        <Portofolio />
+      <section id="projects">
+        <Project />
       </section>
       <section id="testimonial">
         <Testimonial />

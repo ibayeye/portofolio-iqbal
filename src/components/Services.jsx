@@ -61,7 +61,7 @@ const Services = () => {
                     </p>
                   </div>
                   <a
-                    href="#portofolio"
+                    href="#projects"
                     className="flex items-centercursor-pointer"
                   >
                     <img

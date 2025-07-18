@@ -8,16 +8,16 @@ import kakasualan from "../assets/kakasualan.png";
 import arrow from "../assets/arrow.svg";
 import Card from "./Card";
 
-const Portofolio = () => {
+const Project = () => {
   return (
     <div className="min-h-full bg-[#363543] font-title relative overflow-hidden px-4 md:px-12 lg:px-24 py-8 md:py-12 lg:py-16">
       <div className="container mx-auto">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center md:text-left">
-          My Best Selected Portofolio
+          My Best Selected Projects
         </h1>
         <div className="h-1 w-[200px] md:w-[400px] lg:w-[600px] bg-yellow-500 mt-2 md:mt-4 mx-auto md:mx-0"></div>
         <p className="text-gray-400 text-lg md:text-xl lg:text-2xl mt-4 text-center md:text-left">
-          The following are the best portofolios during
+          The following are the best projects during
           <br />
           the career path as a freelancer
         </p>
@@ -70,7 +70,7 @@ const Portofolio = () => {
             onClick={() => window.open("https://github.com/ibayeye", "_blank")}
             className="btn btn-outline btn-warning font-light text-sm md:text-base"
           >
-            More Portofolio
+            More Projects
           </button>
         </div>
       </div>
@@ -78,4 +78,4 @@ const Portofolio = () => {
   );
 };
 
-export default Portofolio;
+export default Project;
